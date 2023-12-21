@@ -1,0 +1,25 @@
+div{
+    border: 2px solid green;
+    padding:12px;
+
+}
+.grid-container1{
+    display: grid;
+    border:2px solid red;
+    grid-template-columns: auto auto auto auto auto;
+}
+.grid-container2{
+
+     display: grid;
+    border:2px solid rgb(0, 255, 34);
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr ;
+}
+.grid-container3{
+    display: grid;
+    border:2px solid rgb(0, 183, 255);
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr ;
+}
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
